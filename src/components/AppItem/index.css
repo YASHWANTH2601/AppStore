@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.app_listItems {
+  width: 120px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.app_img {
+  width: 60px;
+}

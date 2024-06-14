@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.tab-btn {
+  border: none;
+  opacity: 0.5;
+}
+
+.active-tab-btn {
+  opacity: 1;
+  text-decoration: underline #2563eb;
+  color: #2563eb;
+}

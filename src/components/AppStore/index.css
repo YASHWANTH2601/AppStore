@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+}
+.tab_list_container {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.app_list_container {
+  list-style: none;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+@media screen and (max-width: 768px) {
+  .app_list_container {
+    width: 300px;
+  }
+}
+.search_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 270px;
+  height: 40px;
+  margin: auto;
+}
+.input_bar {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 240px;
+  height: 30px;
+}
+.search_img {
+  width: 30px;
+  height: 30px;
+}
